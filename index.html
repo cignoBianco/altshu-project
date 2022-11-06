@@ -6,59 +6,68 @@
   <meta author="cignoBianco">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Altshu Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
   <header>
-    <a href="/" class="logo-wrapper">
+    <div class="header">
+      <a href="/" class="logo-wrapper">
       <div class="logo-wrapper__logo"></div>
-      <p class="logo-wrapper__logo-text">
-        blog
-        <span class="logo-wrapper__logo-text_animated">|</span>
-      </p>
-    </a>
-    <nav class="navigation-wrapper">
-      <ul class="navigation-list">
-        <li class="navigation-list__item">
-          <a href="#work">Work</a>
-        </li>
-        <li class="navigation-list__item">
-          <a href="#about">About</a>
-        </li>
-        <li class="navigation-list__item">
-          <a href="#blog">Blog</a>
-        </li>
-        <li class="navigation-list__item">
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
+        <p class="logo-wrapper__logo-text">
+          blog
+          <span class="logo-wrapper__logo-text_animated">|</span>
+        </p>
+      </a>
+      <nav class="navigation-wrapper">
+        <ul class="navigation-list">
+          <li class="navigation-list__item">
+            <a href="#work">Work</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#about">About</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#blog">Blog</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
-    <section id="first-screen" class="first-screen-wrapper">
-      <article class="first-screen">
-        <h1 class="title">I <span class="title__accent">develop</span> awesome websites that make an <span class="title__accent">impact</span>.</h1>
-        <p class="first-screen__content">
-          Hi! I'm Svyatoslav, a Full Stack Developer 
-          based in Russia. I create information systems 
-          for fast-growing startups.
-        </p>
-        <a href="mailto:smiana123@gmail.com" class="first-screen__mail-link button-link">
-          Write me!
-          <span class="button-link__logo">✉️</span>
-        </a>
-      </article>
-      <div class="first-screen-wrapper__achieve-section achieve-section">
-        <div class="achieve-section__picture-wrapper">
-          <img class="achieve-section__picture" src="./assets/images/achieve-picture.svg" alt="🏆">
+    <section id="first-screen">
+      <div class="first-screen-wrapper">
+        <div>
+          <article class="first-screen">
+            <h1 class="title">I <span class="title__accent">develop</span> awesome websites that make an <span class="title__accent">impact</span>.</h1>
+            <p class="first-screen__content">
+              Hi! I'm Svyatoslav, a Full Stack Developer 
+              based in Russia. I create information systems 
+              for fast-growing startups.
+            </p>
+            <a href="mailto:smiana123@gmail.com" class="first-screen__mail-link button-link">
+              Write me!
+              <span class="button-link__logo"></span>
+            </a>
+          </article>
+          <div class="first-screen-wrapper__achieve-section achieve-section">
+            <div class="achieve-section__picture-wrapper">
+              <img class="achieve-section__picture" src="./assets/images/achieve-picture.svg" alt="🏆">
+            </div>
+            <div class="achieve-section__content">
+              <h5>Passed the Altshu Web Developing Course</h5>
+              <p>WebDevelopment 2022 • <a href="https://altshu.com">altshu.com</a></p>
+            </div>
+          </div>
         </div>
-        <div class="achieve-section__content">
-          <h5>Passed the Altshu Web Developing Course</h5>
-          <p>WebDevelopment 2022 • <a href="https://altshu.com">altshu.com</a></p>
-        </div>
+        <div class="first-screen-wrapper__picture"></div>
       </div>
-      <img class="first-screen-wrapper__picture" src="./assets/images/first-screen-image.png" alt="👩🏼‍💻">
-    </section>
+       </section>
     <section id="about">
       <div class="breadcrumb">
         <img class="breadcrumb__icon" src="./assets/images/breadcrumb.png" alt="~">

@@ -25,4 +25,251 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
+header {
+    padding: 14px 80px 10px;
+    background-color: var(--dark-blue-color);
+    width: -webkit-fill-available;
+}
+
+.header {
+    padding: 13px 0;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-wrapper {
+    width: max-content;
+    display: flex;
+    text-decoration: none;
+}
+
+.logo-wrapper__logo {
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px -4px 4px var(--black-color-20);
+    border-radius: 11px;
+    margin-right: 15px;
+}
+
+.logo-wrapper__logo-text {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.logo-wrapper__logo-text_animated {
+    margin-left: 5px;
+    animation-name: blink;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+}
+
+.navigation-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation-list__item {
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.navigation-list__item a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navigation-list__item a:hover {
+    text-decoration: underline;
+}
+
+#first-screen {
+    padding: 100px 80px 0;
+    background-color: var(--dark-blue-color);
+    width: -webkit-fill-available;
+}
+
+.first-screen-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.first-screen {
+    max-width: 690px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-bottom: 34px;
+}
+
+.title__accent {
+    font-weight: 500;
+}
+
+.first-screen__content {
+    max-width: 545px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.button-link {
+    padding: 20px 35px 19px;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-screen__mail-link {
+    background: #FFFFFF;
+    width: 199px;
+    height: 65px;
+    color: var(--black-color);
+    margin-bottom: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.first-screen__mail-link:hover {
+    background: #ffffffda;
+}
+
+.button-link__logo {
+    background: url("../images/letter-logo.svg");
+    width: 24px;
+    height: 28px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+.achieve-section.first-screen-wrapper__achieve-section {
+    max-width: 620px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.achieve-section__picture-wrapper {
+    width: 64px;
+    height: 64px;
+    margin-right: 24px;
+}
+
+/* .achieve-section__picture {} */
+
+.achieve-section__content {
+    max-width: 400px;
+    height: 100%;
+}
+
+.achieve-section__content h5 {
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+
+.achieve-section__content p {
+    font-size: 15px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.achieve-section__content p a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.first-screen-wrapper__picture {
+    width: 590px;
+    height: 665px;
+    background: url("../images/first-screen-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 49px;
+    background-position-x: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
