@@ -159,6 +159,7 @@ header {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .first-screen__mail-link {
@@ -613,35 +614,108 @@ header {
     margin-left: auto;
 }
 
+#blog {
+    padding: 31px 80px 80px;
+    width: -webkit-fill-available;
+}
 
+.blog-screen {
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 85px;
+}
 
+.subtitle.blog-subtitle {
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: 1.2px;
+    margin-top: 9px;
+    max-width: 631px;
+}
 
+.blog-screen__link.button-link {
+    color: #FFF;
+    background-color: var(--blue-color);
+    width: 274px;
+    height: 65px;
+}
 
+.blog-screen__link.button-link:hover {
+    text-decoration: underline;
+}
 
+/* .button-link__logo-arrow {TODO} */
 
+.news-article {
+    height: 288px;
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--light-grey-color);
+}
 
+.news-article__picture {
+    width: 376px;
+    height: 241px;
+    background-color: var(--black-color-40);
+    margin-right: 40px;
+}
 
+.news-article__item-data {
+    max-width: 560px;
+}
 
+.news-article__date {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--blue-color);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
 
+.news-article__title {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 23px;
+}
 
+.news-article__content {
+    max-width: 500px;
+    font-size: 12px;
+    line-height: 28px;
+}
 
+.news-article__link {
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--blue-color);
+    cursor: pointer;
+    text-decoration: none;
+}
 
+.news-article__link:hover {
+    text-decoration: underline;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.news-article__link-arrow {
+    background: url(../images/article-link-icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 88px;
+    height: 26px;
+    display: inline-block;
+}
 
 .preview-section-hidden {
     display: none;
