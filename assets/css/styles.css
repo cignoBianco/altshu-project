@@ -1,0 +1,28 @@
+:root {
+    --dark-blue-color: #010032;
+    --blur-color: #4543E8;
+    --black-color: #04100B;
+    --black-color-80: #04100B80;
+    --black-color-60: #04100B60;
+    --black-color-40: #04100B40;
+    --black-color-20: #04100B20;
+    --light-grey-color: #F5F5F5;
+    --white-color: #FBFBFB;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue';
+    user-select: none;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
