@@ -9,18 +9,54 @@
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+    <a href="/" class="logo-wrapper">
+      <div class="logo-wrapper__logo"></div>
+      <p class="logo-wrapper__logo-text">
+        blog
+        <span class="logo-wrapper__logo-text_animated">|</span>
+      </p>
+    </a>
+    <nav class="navigation-wrapper">
+      <ul class="navigation-list">
+        <li class="navigation-list__item">
+          <a href="#work">Work</a>
+        </li>
+        <li class="navigation-list__item">
+          <a href="#about">About</a>
+        </li>
+        <li class="navigation-list__item">
+          <a href="#blog">Blog</a>
+        </li>
+        <li class="navigation-list__item">
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
     </nav>
   </header>
   <main>
-    <section>
-      <article></article>
+    <section id="first-screen" class="first-screen-wrapper">
+      <article class="first-screen">
+        <h1 class="title">I <span class="title__accent">develop</span> awesome websites that make an <span class="title__accent">impact</span>.</h1>
+        <p class="first-screen__content">
+          Hi! I'm Svyatoslav, a Full Stack Developer 
+          based in Russia. I create information systems 
+          for fast-growing startups.
+        </p>
+        <a href="mailto:smiana123@gmail.com" class="first-screen__mail-link button-link">
+          Write me!
+          <span class="button-link__logo">✉️</span>
+        </a>
+      </article>
+      <div class="first-screen-wrapper__achieve-section achieve-section">
+        <div class="achieve-section__picture-wrapper">
+          <img class="achieve-section__picture" src="./assets/images/achieve-picture.png" alt="🏆">
+        </div>
+        <div class="achieve-section__content">
+          <h5>Passed the Altshu Web Developing Course</h5>
+          <p>WebDevelopment 2022 • <a href="https://altshu.com">altshu.com</a></p>
+        </div>
+      </div>
+      <img class="first-screen-wrapper__picture" src="./assets/images/first-screen-image.png" alt="👩🏼‍💻">
     </section>
     <section>
       <article></article>
