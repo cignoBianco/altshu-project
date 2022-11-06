@@ -243,11 +243,13 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: start;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-/* .breadcrumb__icon {} */
+.breadcrumb__icon {
+    margin-right: 20px;
+}
 
 .breadcrumb__title {
     font-style: normal;
@@ -405,6 +407,159 @@ header {
     line-height: 31px;
     align-self: end;
 }
+
+#work {
+    padding: 14px 80px 10px;
+    width: -webkit-fill-available;
+}
+
+.work {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.work .subtitle {
+    font-size: 60px;
+    line-height: 66px;
+    margin-top: 26px;
+    margin-bottom: 78px;
+    max-width: 698px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-gap: 50px;
+}
+
+.work-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-article:nth-of-type(1) {
+    width: 510px;
+    height: 665px;
+}
+
+.work-article:nth-of-type(2) {
+    width: 620px;
+    height: 825px;
+    margin-bottom: 40px;
+}
+
+.work-article:nth-of-type(3) {
+    width: 720px;
+    /* height: 720px; */
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+.work-article:nth-of-type(4) {
+    width: 620px;
+    height: 825px;
+}
+
+.work-article:nth-of-type(5) {
+    width: 510px;
+    height: 665px;
+}
+
+.work-article__picture {
+    background: var(--black-color-40);
+    width: 100%;
+    height: -webkit-fill-available;
+    margin-bottom: 27px;
+}
+
+.work-article__content-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+}
+
+.work-article__title {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 23px;
+    width: 400px;
+}
+
+.work-article__link {
+    width: 28px;
+    height: 28px;
+    background: url(../images/link-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.work-article__content {
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.work__link-button {
+    padding: 56px 40px;
+    height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--blue-color);
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+}
+
+.work__link-button:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
