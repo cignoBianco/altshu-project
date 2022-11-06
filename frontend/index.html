@@ -1,3 +1,8 @@
+<?php
+  $post = new stdClass();
+  $post->title = "Post name";
+  $post->content = "Lorem ipsum dolor";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -236,8 +241,9 @@
           <img src="./assets/images/news.png" alt="article picture" class="news-article__picture">
           <div class="news-article__item-data">
             <p class="news-article__date">21 OCT, 2022</p>
-            <h5 class="news-article__title">How I’ve started learning web</h5>
-            <p class="news-article__content">Vivamus mattis eu odio non aliquam. Vestibulum tristique congue laoreet. Nulla facilisi.</p>
+            <h5 class="news-article__title"><?php echo $post->title ?></h5>
+            <p class="news-article__content">
+              <?php echo $post->content ?></p>
           </div>
           <a href="/posts/1" class="news-article__link">View post <span class="news-article__link-arrow"></span></a>
         </article>
